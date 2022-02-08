@@ -9,6 +9,15 @@ import com.example.javadesignpatternspractice.proxy.staticproxy.IUser;
 import com.example.javadesignpatternspractice.proxy.staticproxy.User;
 import com.example.javadesignpatternspractice.proxy.staticproxy.UserProxy;
 
+/**
+ * 代理模式-测试类
+ *
+ * 代理模式分为3种
+ *  1. 静态代理
+ *  2. JDK 动态代理   --被代理的类必须实现接口
+ *  3. cglib 动态代理
+ *
+ */
 public class ProxyTest {
 
     public static void main(String[] args) {
